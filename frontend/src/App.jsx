@@ -1,10 +1,15 @@
 import React from 'react';
+import LessonCard from './LessonCard';
+
+const sample = {
+  learnable: 'ciao',
+  definition: 'hello (Italian)',
+};
 
 export default function App() {
   return (
     <div>
-      <h1>MEMCAT</h1>
-      <p>Welcome to MEMCAT skeleton.</p>
+      <LessonCard card={sample} />
     </div>
   );
 }
