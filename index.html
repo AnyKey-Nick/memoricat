@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMCAT - Learn Languages Like Memrise</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="memrise.css">
+</head>
+
+<body>
+    <div id="app">
+        <!-- Navigation -->
+        <nav class="navbar">
+            <div class="nav-container">
+                <h1 class="logo">MEMCAT</h1>
+                <div class="nav-links">
+                    <a href="#" onclick="showHome()">Home</a>
+                    <a href="#" onclick="showCourses()">Courses</a>
+                    <a href="#" id="authBtn" onclick="showAuth()">Login</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Main Content -->
+        <div id="content" class="content">
+            <!-- Dynamic content will be loaded here -->
+        </div>
+    </div>
+
+    <script src="api.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
